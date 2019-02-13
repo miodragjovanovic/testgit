@@ -17,3 +17,6 @@ nova linijaaa
 ahaaa
 
 valjda poslednji
+
+commit 9
+
