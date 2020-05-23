@@ -1,9 +1,17 @@
 package com.name.no.service;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -165,7 +173,7 @@ public class DrawService {
 					}
 				}
 			}
-			unavailableGroups = new ArrayList<Group>();
+			unavailableGroups = new ArrayList<>();
 			for (Team selectedTeam : teamsInPot) {
 				if (selectedTeam.getPossibleGroups().size() == 1 && !skipTeams.contains(selectedTeam)) {
 					addUnavailbleGroups(unavailableGroups, selectedTeam.getPossibleGroups());
@@ -193,10 +201,10 @@ public class DrawService {
 					System.out.print(groupEntry.getValue().getName() + " ");
 				}
 				System.out.println();
-//				Thread.sleep(2000);
+				Thread.sleep(2000);
 				Group drawnGroup = drawGroup(drawnTeam);
 				System.out.println("Drawn Group: " + drawnGroup.getName());
-//				Thread.sleep(1000);
+				Thread.sleep(1000);
 				drawnTeam.setGroup(drawnGroup);
 				teamRepository.save(drawnTeam);
 				removeDrawnGroup(entry.getValue(), drawnGroup);
@@ -230,7 +238,7 @@ public class DrawService {
 			}
 		}
 		
-		List<Group> groups = new ArrayList<Group>();
+		List<Group> groups = new ArrayList<>();
 		for (Map.Entry<String, Group> entry : drawnTeam.getPossibleGroups().entrySet()) {
 			groups.add(entry.getValue());
 		}
@@ -260,7 +268,7 @@ public class DrawService {
 	private Team drawTeam(Pot pot) {
 		possibleGroups(pot);
 		filterPossibleGroups(pot);
-		List<Team> teams = new ArrayList<Team>(); 
+		List<Team> teams = new ArrayList<>();
 		for (Team potTeam : pot.getTeams()) {
 			Team dbTeam = teamRepository.findById(potTeam.getName()).get();
 			if (dbTeam.getGroup() == null) {
@@ -277,7 +285,7 @@ public class DrawService {
 	}
 	
 	private Group drawGroup(Team team) {
-		List<Group> groups = new ArrayList<Group>();
+		List<Group> groups = new ArrayList<>();
 		for (Map.Entry<String, Group> entry : team.getPossibleGroups().entrySet()) {
 			groups.add(entry.getValue());
 		}
@@ -308,12 +316,140 @@ public class DrawService {
 	}
 	
 	public List<TeamTO> getTeamsFromGroup(String group) {
-		List<TeamTO> teamsTO = new ArrayList<TeamTO>();
+		List<TeamTO> teamsTO = new ArrayList<>();
 		List<Team> teams = teamRepository.findByGroupNameOrderByCoefficientDesc(group);
 		for (Team team : teams) {
 			teamsTO.add(new TeamTO(team.getName(), team.getCountry(), team.getCoefficient(), team.getGroup(), team.getPossibleGroups()));
 		}
 		return teamsTO;
 	}
-	
+
+	public static final void main(String[] args) {
+		DrawService drawService = new DrawService(null, null);
+		drawService.bla();
+	}
+
+	private void bla() {
+		List<String> list = new ArrayList<>();
+		File file = new File("D:/test.txt");
+		if(file.exists()){
+			try {
+				list = Files.readAllLines(file.toPath(), Charset.defaultCharset());
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+			if(list.isEmpty())
+				return;
+		}
+		List<Player> players = new ArrayList<>();
+		int i = 0;
+		while (i < list.size()) {
+			String line = list.get(i++);
+			String club = line;
+			line = list.get(i++);
+			while (!line.equals("") && i < list.size()) {
+				String[] elements = line.split("\\t");
+				Player player = new Player();
+				player.setClub(club);
+				player.setName(elements[0]);
+				player.setGames(elements[1]);
+				players.add(player);
+				line = list.get(i++);
+			}
+		}
+		players.stream().forEach(player -> System.out.println(player));
+		Map<String, Set<String>> map = new HashMap<>();
+		Map<String, Set<String>> clubsWithDupPlayers = new HashMap<>();
+		players.stream().forEach(player -> {
+			Set<String> clubs = map.get(player.getName());
+			if (clubs == null) {
+				clubs = new HashSet<>();
+			}
+			clubs.add(player.getClub());
+			map.put(player.getName(), clubs);
+
+			clubs.stream().forEach(club -> {
+				Set<String> clubPlayers = clubsWithDupPlayers.get(club);
+				if (clubPlayers == null) {
+					clubPlayers = new HashSet<>();
+				}
+				clubPlayers.add(player.getName());
+				clubsWithDupPlayers.put(club, clubPlayers);
+			});
+		});
+		String[] igraci = new String[1];
+		igraci[0] = "";
+		map.entrySet().forEach(element -> {
+			if (element.getValue().size() > 1) {
+				igraci[0] = igraci[0].concat(element.getValue().size() + "\t");
+			}
+			if (element.getValue().size() > 1) {
+				System.out.println(element.getKey() + " " + element.getValue());
+				igraci[0] = igraci[0].concat(element.getKey() + " " + element.getValue() + "\r\n");
+			}
+		});
+		 try {
+		      File myObj = new File("D:/players.txt");
+		      if (myObj.createNewFile());
+		      FileWriter myWriter = new FileWriter("D:/players.txt");
+		      myWriter.write(igraci[0]);
+		      myWriter.close();
+		    } catch (IOException e) {
+		      e.printStackTrace();
+		    }
+		 String[] timovi = new String[1];
+			timovi[0] = "";
+		clubsWithDupPlayers.entrySet().forEach(element -> {
+			if (element.getValue().size() > 1) {
+				List<String> bljak = element.getValue().stream().filter(value -> map.get(value).size() > 1).collect(Collectors.toList());
+				System.out.println(element.getKey() + " " + bljak);
+				timovi[0] = timovi[0].concat(bljak.size() + "\t");
+				timovi[0] = timovi[0].concat(element.getKey() + " " + bljak + "\r\n"); 
+			}
+		});
+		try {
+		      File myObj = new File("D:/clubs.txt");
+		      if (myObj.createNewFile());
+		      FileWriter myWriter = new FileWriter("D:/clubs.txt");
+		      myWriter.write(timovi[0]);
+		      myWriter.close();
+		    } catch (IOException e) {
+		      e.printStackTrace();
+		    }
+	}
+
+	class Player {
+		String name;
+		String club;
+		String games;
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+
+		public String getClub() {
+			return club;
+		}
+
+		public void setClub(String club) {
+			this.club = club;
+		}
+
+		public String getGames() {
+			return games;
+		}
+
+		public void setGames(String games) {
+			this.games = games;
+		}
+
+		public String toString() {
+			return this.getName() + " " + this.getGames() + " " + this.getClub();
+		}
+	}
+
 }
