@@ -331,7 +331,7 @@ public class DrawService {
 
 	private void bla() {
 		List<String> list = new ArrayList<>();
-		File file = new File("D:/test.txt");
+		File file = new File("D:/IT/testgit/test2.txt");
 		if(file.exists()){
 			try {
 				list = Files.readAllLines(file.toPath(), Charset.defaultCharset());
@@ -389,9 +389,9 @@ public class DrawService {
 			}
 		});
 		 try {
-		      File myObj = new File("D:/players.txt");
+		      File myObj = new File("D:/IT/testgit/players2.txt");
 		      if (myObj.createNewFile());
-		      FileWriter myWriter = new FileWriter("D:/players.txt");
+		      FileWriter myWriter = new FileWriter("D:/IT/testgit/players2.txt");
 		      myWriter.write(igraci[0]);
 		      myWriter.close();
 		    } catch (IOException e) {
@@ -408,9 +408,9 @@ public class DrawService {
 			}
 		});
 		try {
-		      File myObj = new File("D:/clubs.txt");
+		      File myObj = new File("D:/IT/testgit/clubs2.txt");
 		      if (myObj.createNewFile());
-		      FileWriter myWriter = new FileWriter("D:/clubs.txt");
+		      FileWriter myWriter = new FileWriter("D:/IT/testgit/clubs2.txt");
 		      myWriter.write(timovi[0]);
 		      myWriter.close();
 		    } catch (IOException e) {

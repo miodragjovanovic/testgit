@@ -105,59 +105,6 @@ Peniel Mlapa Al Ittihad Kalba Sports Club	31
 Breel Embolo Borussia Mönchengladbach	29
 Matthäus	197
 
-Bayer	
-Gonzalo Castro VfB Stuttgart	370
-Lars Bender Bayer 04 Leverkusen	318
-Bernd Leno Arsenal FC	304
-Karim Bellarabi Bayer 04 Leverkusen	222
-Julian Brandt Borussia Dortmund	215
-Wendell Bayer 04 Leverkusen	211
-Ömer Toprak SV Werder Bremen	203
-Jonathan Tah Bayer 04 Leverkusen	174
-Michal Kadlec 1.FC Slovácko	158
-Arturo Vidal FC Barcelona	144
-Kevin Volland Bayer 04 Leverkusen	139
-Kai Havertz Bayer 04 Leverkusen	139
-Eren Derdiyok Pakhtakor Tashkent	138
-Charles Aránguiz Bayer 04 Leverkusen	130
-Renato Augusto Beijing Sinobo Guoan	126
-Sidney Sam SC Rheindorf Altach	124
-Daniel Schwaab PSV Eindhoven	119
-Hakan Calhanoglu AC Milan	115
-Julian Baumgartlinger Bayer 04 Leverkusen	109
-Leon Bailey Bayer 04 Leverkusen	105
-Sven Bender Bayer 04 Leverkusen	102
-Tin Jedvaj FC Augsburg	101
-Lucas Alario Bayer 04 Leverkusen	90
-Heung-min Son Tottenham Hotspur	87
-Admir Mehmedi VfL Wolfsburg	86
-André Schürrle Spartak Moscow	83
-Lukas Hradecky Bayer 04 Leverkusen	77
-Sebastian Boenisch 1. Wiener Neustädter Sportclub	76
-Chicharito Los Angeles Galaxy	76
-Benjamin Henrichs AS Monaco	76
-Kevin Kampl RB Leipzig	73
-Aleksandar Dragovic Bayer 04 Leverkusen	69
-Dominik Kohr Eintracht Frankfurt	69
-Giulio Donati US Lecce	67
-Mitchell Weiser Bayer 04 Leverkusen	62
-Pirmin Schwegler Western Sydney Wanderers	60
-Zoltan Sebescen TV Unterboihingen	56
-Sascha Dum TSV Hertha Walheim	52
-Kyriakos Papadopoulos Hamburger SV	51
-Toni Kroos Real Madrid	48
-Lukas Sinkiewicz SV Lövenich/Widdersdorf	48
-Robbie Kruse Melbourne Victory	46
-Christoph Kramer Borussia Mönchengladbach	44
-Emre Can Borussia Dortmund	39
-Jan Simak TJ Sokol Lom	38
-Josip Drmic Norwich City	38
-Daniel Carvajal Real Madrid	36
-Panagiotis Retsos Sheffield United	35
-Paulinho Bayer 04 Leverkusen	33
-Nadiem Amiri Bayer 04 Leverkusen	32
-Ballack	155
-
 Dortmund	
 Marcel Schmelzer Borussia Dortmund	363
 Lukasz Piszczek Borussia Dortmund	355
@@ -596,63 +543,6 @@ Yassine Benzia FCO Dijon	54
 Mariano Díaz Real Madrid	48
 Essien	96
 
-Marseille	
-Steve Mandanda Olympique Marseille	549
-Mathieu Valbuena Olympiacos Piraeus	330
-Florian Thauvin Olympique Marseille	237
-Dimitri Payet Olympique Marseille	212
-André Ayew Swansea City	209
-Nicolas N'Koulou Torino FC	207
-Rod Fanni Montreal Impact	198
-Charles Kaboré Dinamo Moscow	193
-André-Pierre Gignac Tigres UANL	188
-Bouna Sarr Olympique Marseille	179
-Samir Nasri RSC Anderlecht	166
-Jérémy Morel Stade Rennais FC	153
-Hiroki Sakai Olympique Marseille	147
-Jordan Ayew Crystal Palace	147
-Maxime López Olympique Marseille	146
-Morgan Sanson Olympique Marseille	138
-Lucas Ocampos Sevilla FC	132
-Alaixys Romao Stade Reims	127
-Valère Germain Olympique Marseille	127
-Lucho González Club Athletico Paranaense	124
-Rolando SC Braga	123
-Loïc Rémy LOSC Lille	111
-André Zambo Anguissa Villarreal CF	106
-Jordan Amavi Olympique Marseille	105
-Stéphane Mbia Shanghai Greenland Shenhua	102
-Benjamin Mendy Manchester City	101
-Luiz Gustavo Fenerbahce SK	98
-Hatem Ben Arfa Real Valladolid CF	91
-Franck Ribéry ACF Fiorentina	89
-Yohann Pelé Olympique Marseille	85
-Clinton N'Jie Dinamo Moscow	83
-Hilton HSC Montpellier	81
-Rémy Cabella FK Krasnodar	81
-Boubacar Kamara Olympique Marseille	79
-Michy Batshuayi Chelsea FC	78
-Giannelli Imbula FC Sochi	76
-Adil Rami FC Sochi	75
-Brice Dja Djédjé Kayserispor	70
-César Azpilicueta Chelsea FC	68
-Romain Alessandrini Qingdao Huanghai	65
-Kevin Strootman Olympique Marseille	64
-Renato Civelli Club Atlético Banfield	63
-Lucas Mendes Al Wakrah Sports Club	62
-Duje Caleta-Car Olympique Marseille	52
-Mario Lemina Galatasaray SK	50
-Konstantinos Mitroglou PSV Eindhoven	50
-Karim Rekik Hertha BSC	48
-Nemanja Radonjic Olympique Marseille	47
-Abdelaziz Barrada US Lusitanos Saint-Maur	45
-Javier Manquillo Newcastle United	43
-Blanc	79
-Desailly	59
-Drogba	55
-Makélélé	36
-Pires	93
-
 PSG	
 Thiago Silva Paris Saint-Germain	310
 Marco Verratti Paris Saint-Germain	310
@@ -906,6 +796,59 @@ Shevchenko	322
 Van Basten	201
 Zambrotta	107
 
+Roma	
+Alessandro Florenzi Valencia CF	280
+Edin Dzeko AS Roma	211
+Konstantinos Manolas SSC Napoli	206
+Radja Nainggolan Cagliari Calcio	203
+Miralem Pjanic Juventus FC	185
+Federico Fazio AS Roma	154
+Stephan El Shaarawy Shanghai Greenland Shenhua	139
+Kevin Strootman Olympique Marseille	131
+Diego Perotti AS Roma	131
+Aleksandar Kolarov AS Roma	122
+Jérémy Ménez Paris FC	114
+Aleandro Rosi AC Perugia Calcio	99
+Lorenzo Pellegrini AS Roma	95
+Juan Jesus AS Roma	90
+Gervinho Parma Calcio 1913	88
+Cengiz Ünder AS Roma	85
+Mohamed Salah Liverpool FC	83
+Wojciech Szczesny Juventus FC	81
+Leandro Castán Club de Regatas Vasco da Gama	81
+Bruno Peres AS Roma	77
+Vasilios Torosidis Olympiacos Piraeus	77
+Adem Ljajic Besiktas JK	74
+Antonio Rüdiger Chelsea FC	72
+Mattia Destro Genoa CFC	68
+Juan Iturbe CF Pachuca	68
+Erik Lamela Tottenham Hotspur	67
+Bryan Cristante AS Roma	65
+Alisson Liverpool FC	64
+Justin Kluivert AS Roma	62
+Stefano Okaka Udinese Calcio	61
+Nicolò Zaniolo AS Roma	60
+Patrik Schick RB Leipzig	58
+Daniel Osvaldo Club Atlético Banfield	57
+Marquinho Figueirense Futebol Clube	56
+Maarten Stekelenburg Everton FC	55
+Leandro Paredes Paris Saint-Germain	54
+Emerson Chelsea FC	47
+Leandro Greco AC Perugia Calcio	47
+Michael Bradley Toronto FC	46
+Lucas Digne Everton FC	42
+Marco Motta Persija Jakarta	42
+Gerson Clube de Regatas do Flamengo	42
+Davide Santon AS Roma	41
+Steven Nzonzi Stade Rennais FC	39
+Mapou Yanga-Mbiwa Olympique Lyon	38
+Medhi Benatia Al Duhail Sports Club	37
+Bojan Krkic Montreal Impact	37
+Robin Olsen Cagliari Calcio	35
+Dodô UC Sampdoria	35
+Pau López AS Roma	34
+Nakata	40
+
 Atletico	
 Koke Atlético Madrid	446
 Gabi Al Sadd Sports Club	413
@@ -1098,58 +1041,57 @@ Sanchez	252
 Seedorf	159
 Zidane	227
 
-Sevilla	
-Jesús Navas Sevilla FC	505
-Dani Alves São Paulo Futebol Clube	232
-Éver Banega Sevilla FC	224
-Adriano Club Athletico Paranaense	218
-Federico Fazio AS Roma	204
-Álvaro Negredo Al-Nasr (Dubai)	180
-Vitolo Atlético Madrid	177
-Coke Levante UD	173
-Vicente Iborra Villarreal CF	172
-Diego Capel Birkirkara FC	172
-Sergio Rico Paris Saint-Germain	170
-Daniel Carriço Wuhan Zall	167
-Franco Vázquez Sevilla FC	164
-Diego Perotti AS Roma	159
-Sergio Escudero Sevilla FC	157
-Pablo Sarabia Paris Saint-Germain	151
-Ivan Rakitic FC Barcelona	149
-Kévin Gameiro Valencia CF	145
-Wissam Ben Yedder AS Monaco	138
-Steven Nzonzi Stade Rennais FC	136
-Gabriel Mercado Al Rayyan Sports Club	117
-Carlos Bacca Villarreal CF	108
-Gary Medel Bologna FC 1909	94
-Timothée Kolodziejczak AS Saint-Étienne	91
-Grzegorz Krychowiak Lokomotiv Moscow	90
-Beto Göztepe	89
-Mariano Galatasaray SK	80
-Tomas Vaclik Sevilla FC	79
-Adil Rami FC Sochi	79
-Nolito Sevilla FC	79
-Diogo Figueiras Rio Ave FC	78
-Clément Lenglet FC Barcelona	73
-Joaquín Correa SS Lazio	73
-Piotr Trochowski Hamburger SV III	70
-Aleix Vidal Deportivo Alavés	68
-Stéphane Mbia Shanghai Greenland Shenhua	66
-Luis Muriel Atalanta BC	65
-Sergi Gómez Sevilla FC	64
-Simon Kjaer AC Milan	64
-Alberto Moreno Villarreal CF	62
-Sebastián Cristóforo SD Eibar	56
-Roque Mesa CD Leganés	56
-Martín Cáceres ACF Fiorentina	55
-Yevgen Konoplyanka Shakhtar Donetsk	54
-Quincy Promes Ajax Amsterdam	49
-Juan Cala Cádiz CF	48
-Arouna Koné Sivasspor	48
-Alejandro Alfaro Intercity SJ Alicante	47
-Denis Suárez Celta de Vigo	46
-Sergio Ramos Real Madrid	45
-Maradona	26
+Bilbao	
+Markel Susaeta Melbourne City FC	507
+Iker Muniain Athletic Bilbao	411
+Mikel San José Athletic Bilbao	397
+Óscar de Marcos Athletic Bilbao	389
+Fernando Llorente SSC Napoli	327
+Ander Iturraspe RCD Espanyol Barcelona	320
+Fernando Amorebieta Club Cerro Porteño	253
+Mikel Balenziaga Athletic Bilbao	252
+Javi Martínez Bayern Munich	250
+Beñat Etxebarria Athletic Bilbao	242
+Iñaki Williams Athletic Bilbao	238
+Aymeric Laporte Manchester City	222
+Raúl García Athletic Bilbao	201
+Ibai Gómez Athletic Bilbao	177
+Mikel Rico SD Huesca	175
+David López CD Eldense	144
+Xabi Etxeita Getafe CF	140
+Iñigo Lekue Athletic Bilbao	129
+Ander Herrera Paris Saint-Germain	128
+Iago Herrerín Athletic Bilbao	117
+Yeray Álvarez Athletic Bilbao	109
+Jon Aurtenetxe Atlético Baleares	105
+Iñigo Córdoba Athletic Bilbao	83
+Iñigo Martínez Athletic Bilbao	82
+Sabin Merino Deportivo de La Coruña	75
+Eneko Bóveda Deportivo de La Coruña	71
+Unai Núñez Athletic Bilbao	69
+Yuri Berchiche Athletic Bilbao	67
+Dani García Athletic Bilbao	62
+Ander Capa Athletic Bilbao	59
+Iñigo Pérez CA Osasuna	58
+Kepa Chelsea FC	54
+Ion Vélez Peña Sport FC	54
+Unai López Athletic Bilbao	51
+Joseba Garmendia SD Formentera	51
+Javi Eraso CD Leganés	45
+Borja Viguera Real Unión Club	45
+Mikel Vesga Athletic Bilbao	44
+Enric Saborit Maccabi Tel Aviv	43
+Unai Simón Athletic Bilbao	38
+Ager Aketxe Deportivo de La Coruña	34
+César Caneda UD Logroñés	31
+Guillermo Fernández Racing Santander	28
+Erik Morán CD Numancia	23
+Asier Villalibre Athletic Bilbao	21
+Kenan Kodro Athletic Bilbao	19
+Igor Martínez Real Balompédica Linense	18
+Isma López CD Tenerife	16
+Jonás Ramalho Girona FC	13
+Raúl Fernández UD Las Palmas	12
 
 Man City	
 David Silva Manchester City	424
