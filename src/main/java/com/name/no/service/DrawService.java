@@ -1,5 +1,7 @@
 package com.name.no.service;
 
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -331,7 +333,7 @@ public class DrawService {
 
 	private void bla() {
 		List<String> list = new ArrayList<>();
-		File file = new File("D:/IT/testgit/test2.txt");
+		File file = new File("D:/IT/testgit/test.txt");
 		if(file.exists()){
 			try {
 				list = Files.readAllLines(file.toPath(), Charset.defaultCharset());
@@ -341,6 +343,19 @@ public class DrawService {
 			if(list.isEmpty())
 				return;
 		}
+		
+		List<String> list2 = new ArrayList<>();
+		File file2 = new File("D:/IT/testgit/test2.txt");
+		if(file2.exists()){
+			try {
+				list2 = Files.readAllLines(file2.toPath(), Charset.defaultCharset());
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+			if(list2.isEmpty())
+				return;
+		}
+		
 		List<Player> players = new ArrayList<>();
 		int i = 0;
 		while (i < list.size()) {
@@ -355,6 +370,21 @@ public class DrawService {
 				player.setGames(elements[1]);
 				players.add(player);
 				line = list.get(i++);
+			}
+		}
+		i = 0;
+		while (i < list2.size()) {
+			String line = list2.get(i++);
+			String club = line;
+			line = list2.get(i++);
+			while (!line.equals("") && i < list2.size()) {
+				String[] elements = line.split("\\t");
+				Player player = new Player();
+				player.setClub(club);
+				player.setName(elements[0]);
+				player.setGames(elements[1]);
+				players.add(player);
+				line = list2.get(i++);
 			}
 		}
 		players.stream().forEach(player -> System.out.println(player));
@@ -377,6 +407,51 @@ public class DrawService {
 				clubsWithDupPlayers.put(club, clubPlayers);
 			});
 		});
+		
+		
+		
+		Set<String> klubovi = players.stream().map(Player::getClub).collect(Collectors.toSet());
+		Map<String, Map<String, Integer>> klubToKlub = new HashMap<>();
+		klubovi.stream().forEach(klub -> klubToKlub.put(klub, new HashMap<>()));
+		List<Player> skip = new ArrayList<>();
+		players.stream().forEach(player -> {
+			if (skip.stream().filter(skipi -> skipi.getName().equals(player.getName())).collect(Collectors.toList()).size() == 0) {
+				List<Player> inAllClubs = players.stream().filter(player1 -> player.getName().equals(player1.getName())).collect(Collectors.toList());
+				List<String> allTeams = inAllClubs.stream().map(Player::getClub).collect(Collectors.toList());
+				allTeams.stream().forEach(team -> {
+					Map<String, Integer> mapica = klubToKlub.get(team);
+					List<String> restTeams = allTeams.stream().filter(item -> !item.equals(team)).collect(Collectors.toList());
+					restTeams.stream().forEach(restTeam -> {
+						Integer num = mapica.get(restTeam);
+						if (num != null) {
+							num = num + 1;
+						} else {
+							num = 1;
+						}
+						mapica.put(restTeam, num);
+					});
+				});
+				skip.add(player);
+			}
+		});
+		
+		String[] klub2klub = new String[1];
+		klub2klub[0] = "";
+		klubToKlub.entrySet().forEach(element -> {
+//			List<String> bljak = element.getValue().stream().filter(value -> map.get(value).size() > 1).collect(Collectors.toList());
+			klub2klub[0] = klub2klub[0].concat(element.getKey() + "\t");
+			klub2klub[0] = klub2klub[0].concat(element.getValue() + "\r\n"); 
+	});
+	try {
+	      File myObj = new File("D:/IT/testgit/klub2klub.txt");
+	      if (myObj.createNewFile());
+	      FileWriter myWriter = new FileWriter("D:/IT/testgit/klub2klub.txt");
+	      myWriter.write(klub2klub[0]);
+	      myWriter.close();
+	    } catch (IOException e) {
+	      e.printStackTrace();
+	    }		
+		
 		String[] igraci = new String[1];
 		igraci[0] = "";
 		map.entrySet().forEach(element -> {
