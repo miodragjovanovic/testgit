@@ -49,7 +49,6 @@ Levin Öztunali 1.FSV Mainz 05	46
 Yuya Osako SV Werder Bremen	45
 Mehmet Ekici Fenerbahce SK	43
 Davie Selke SV Werder Bremen	41
-Klose	132
 
 Bayer	
 Gonzalo Castro VfB Stuttgart	370
@@ -102,7 +101,6 @@ Daniel Carvajal Real Madrid	36
 Panagiotis Retsos Sheffield United	35
 Paulinho Bayer 04 Leverkusen	33
 Nadiem Amiri Bayer 04 Leverkusen	32
-Ballack	155
 
 Stuttgart	
 Christian Gentner 1.FC Union Berlin	373
@@ -155,7 +153,6 @@ Erik Thommy Fortuna Düsseldorf	34
 Przemyslaw Tyton FC Cincinnati	33
 Raphael Holzhauser K. Beerschot V.A.	33
 Lukas Rupp Norwich City	32
-Lehmann	90
 
 Wolfsburg	
 Diego Benaglio AS Monaco	321
@@ -432,7 +429,6 @@ Raphinha Stade Rennais FC	41
 Cristiano Piccini Valencia CF	40
 Eric Dier Tottenham Hotspur	32
 Cristiano Ronaldo Juventus FC	31
-Figo	11
 
 Feyenoord	
 Karim El Ahmadi Al-Ittihad Jeddah	266
@@ -485,10 +481,6 @@ Luc Castaignos Gyeongnam FC	42
 Luis Sinisterra Feyenoord Rotterdam	39
 Kamohelo Mokotjo Brentford FC	38
 Royston Drenthe Kozakken Boys	36
-Cruyff	38
-Gullit	49
-Koeman	74
-Larsson	125
 
 PSV	
 Jeroen Zoet FC Utrecht	260
@@ -541,11 +533,6 @@ Ismail Aissati Denizlispor	60
 Cody Gakpo PSV Eindhoven	59
 Érick Gutiérrez PSV Eindhoven	48
 Stijn Wuytens AZ Alkmaar	47
-Gullit	73
-Kluivert	19
-Koeman	125
-Nistelrooy	90
-Ronaldo	57
 
 Lille	
 Rio Mavuba FCE Merignac-Arlac	370
@@ -598,7 +585,6 @@ Gabriel Magalhães LOSC Lille	52
 Éder Lokomotiv Moscow	51
 Sofiane Boufal Southampton FC	51
 Eric Bauthéac Omonia Nicosia	51
-Kluivert	14
 
 Marseille	
 Steve Mandanda Olympique Marseille	549
@@ -651,11 +637,6 @@ Karim Rekik Hertha BSC	48
 Nemanja Radonjic Olympique Marseille	47
 Abdelaziz Barrada US Lusitanos Saint-Maur	45
 Javier Manquillo Newcastle United	43
-Blanc	79
-Desailly	59
-Drogba	55
-Makélélé	36
-Pires	93
 
 Monaco	
 Danijel Subasic AS Monaco	292
@@ -708,9 +689,6 @@ Stevan Jovetic AS Monaco	44
 Mathieu Coutadeur AC Ajaccio	42
 Georgios Tzavellas Alanyaspor	41
 Gelson Martins AS Monaco	40
-Henry	139
-Petit	268
-Trezeguet	123
 
 Fiorentina	
 Borja Valero Inter Milan	212
@@ -763,10 +741,6 @@ Alban Lafont FC Nantes	38
 Daniel Osvaldo Club Atlético Banfield	38
 José María Basanta CF Monterrey	37
 Bartlomiej Dragowski ACF Fiorentina	36
-Baggio	136
-Nakata	24
-Rui Costa	279
-Vieri	39
 
 Lazio	
 Stefan Radu SS Lazio	372
@@ -819,13 +793,6 @@ Brayan Perea Club Atlético Temperley	33
 Manuel Lazzari SS Lazio	29
 Milan Badelj ACF Fiorentina	26
 Nani Orlando City SC	25
-Crespo	73
-Klose	171
-Laudrup	69
-Nedvěd	208
-Nesta	261
-Verón	79
-Vieri	28
 
 Napoli	
 Marek Hamsik Dalian Professional	520
@@ -878,10 +845,6 @@ José Sosa Trabzonspor	31
 Sebastiano Luperto SSC Napoli	29
 Luca Cigarini Cagliari Calcio	29
 Eduardo Vargas Tigres UANL	28
-Blanc	34
-Cannavaro	68
-Maradona	259
-Zola	135
 
 Valencia	
 Dani Parejo Valencia CF	373
@@ -934,7 +897,6 @@ Martín Montoya Brighton & Hove Albion	62
 Mouctar Diakhaby Valencia CF	62
 Mehmet Topal Istanbul Basaksehir FK	59
 Simone Zaza Torino FC	59
-Kluivert	15
 
 Sevilla	
 Jesús Navas Sevilla FC	505
@@ -987,7 +949,6 @@ Arouna Koné Sivasspor	48
 Alejandro Alfaro Intercity SJ Alicante	47
 Denis Suárez Celta de Vigo	46
 Sergio Ramos Real Madrid	45
-Maradona	26
 
 Sociedad	
 David Zurutuza Real Sociedad	302
@@ -1092,8 +1053,6 @@ Denis Suárez Celta de Vigo	48
 Luciano Vietto Sporting CP	48
 Javier Aquino Tigres UANL	48
 Jérémy Perbet Oud-Heverlee Leuven	48
-Pires	128
-Riquelme	141
 
 Tottenham	
 Aaron Lennon Burnley FC	364
@@ -1146,8 +1105,6 @@ Lewis Holtby Blackburn Rovers	42
 Vincent Janssen CF Monterrey	42
 Paulo Gazzaniga Tottenham Hotspur	37
 Étienne Capoue Watford FC	36
-Campbell	266
-Lineker	38
 
 Everton	
 Leighton Baines Everton FC	417
@@ -1200,7 +1157,6 @@ Magaye Gueye Qarabağ Ağdam	39
 Dan Gosling AFC Bournemouth	37
 Kurt Zouma Chelsea FC	36
 Jô Nagoya Grampus	36
-Lineker	35
 
 West Ham	
 Mark Noble West Ham United	495
@@ -1253,10 +1209,6 @@ Sofiane Feghouli Galatasaray SK	27
 Victor Moses Inter Milan	26
 Andriy Yarmolenko West Ham United	25
 José Fonte LOSC Lille	24
-Ferdinand	142
-Lampard	172
-Moore	112
-Wright	23
 
 Newcastle	
 Fabricio Coloccini Club Atlético San Lorenzo de Almagro	275
@@ -1309,59 +1261,3 @@ Florian Lejeune Newcastle United	46
 Mapou Yanga-Mbiwa Olympique Lyon	46
 Miguel Almirón Newcastle United	43
 Kenedy Getafe CF	41
-Barnes	36
-Kluivert	35
-Owen	79
-Shearer	375
-
-Southampton	
-José Fonte LOSC Lille	286
-James Ward-Prowse Southampton FC	269
-Adam Lallana Liverpool FC	261
-Morgan Schneiderlin Everton FC	257
-Steven Davis Rangers FC	226
-Shane Long Southampton FC	205
-Ryan Bertrand Southampton FC	198
-Maya Yoshida UC Sampdoria	194
-Oriol Romeu Southampton FC	181
-Dusan Tadic Ajax Amsterdam	162
-Nathan Redmond Southampton FC	157
-Jack Cork Burnley FC	152
-Andrew Surman AFC Bournemouth	146
-Dean Hammond Worthing FC	141
-Cédric Soares Arsenal FC	138
-Pierre-Emile Höjbjerg Southampton FC	129
-Jay Rodríguez Burnley FC	126
-Fraser Forster Celtic FC	125
-Bradley Wright-Phillips Los Angeles FC	121
-Nathaniel Clyne Liverpool FC	104
-Jack Stephens Southampton FC	104
-Victor Wanyama Montreal Impact	97
-Sofiane Boufal Southampton FC	83
-Jason Puncheon Pafos FC	81
-Charlie Austin West Bromwich Albion	81
-Virgil van Dijk Liverpool FC	80
-Lloyd James Forest Green Rovers	80
-Graziano Pellè Shandong Luneng Taishan	80
-Jos Hooiveld VV Pelikaan-S	77
-Sadio Mané Liverpool FC	75
-David McGoldrick Sheffield United	74
-Lee Barnard Maldon & Tiptree FC	73
-Alex McCarthy Southampton FC	72
-Danny Fox Wigan Athletic	69
-Jan Bednarek Southampton FC	67
-Luke Shaw Manchester United	67
-Nathan Dyer Swansea City	64
-Matt Targett Aston Villa	63
-Manolo Gabbiadini UC Sampdoria	60
-Danny Ings Southampton FC	58
-Stuart Armstrong Southampton FC	57
-Gastón Ramírez UC Sampdoria	55
-Mario Lemina Galatasaray SK	52
-Artur Boruc AFC Bournemouth	50
-Jordy Clasie AZ Alkmaar	49
-Wesley Hoedt Royal Antwerp FC	45
-Gareth Bale Real Madrid	45
-Steve De Ridder Sint-Truidense VV	44
-Alex Oxlade-Chamberlain Liverpool FC	43
-Jannik Vestergaard Southampton FC	42

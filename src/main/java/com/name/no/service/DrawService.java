@@ -333,7 +333,7 @@ public class DrawService {
 
 	private void bla() {
 		List<String> list = new ArrayList<>();
-		File file = new File("D:/IT/testgit/test.txt");
+		File file = new File("D:/share/draw/test.txt");
 		if(file.exists()){
 			try {
 				list = Files.readAllLines(file.toPath(), Charset.defaultCharset());
@@ -344,17 +344,17 @@ public class DrawService {
 				return;
 		}
 		
-		List<String> list2 = new ArrayList<>();
-		File file2 = new File("D:/IT/testgit/test2.txt");
-		if(file2.exists()){
-			try {
-				list2 = Files.readAllLines(file2.toPath(), Charset.defaultCharset());
-			} catch (IOException ex) {
-				ex.printStackTrace();
-			}
-			if(list2.isEmpty())
-				return;
-		}
+//		List<String> list2 = new ArrayList<>();
+//		File file2 = new File("D:/share/draw/test2.txt");
+//		if(file2.exists()){
+//			try {
+//				list2 = Files.readAllLines(file2.toPath(), Charset.defaultCharset());
+//			} catch (IOException ex) {
+//				ex.printStackTrace();
+//			}
+//			if(list2.isEmpty())
+//				return;
+//		}
 		
 		List<Player> players = new ArrayList<>();
 		int i = 0;
@@ -372,21 +372,21 @@ public class DrawService {
 				line = list.get(i++);
 			}
 		}
-		i = 0;
-		while (i < list2.size()) {
-			String line = list2.get(i++);
-			String club = line;
-			line = list2.get(i++);
-			while (!line.equals("") && i < list2.size()) {
-				String[] elements = line.split("\\t");
-				Player player = new Player();
-				player.setClub(club);
-				player.setName(elements[0]);
-				player.setGames(elements[1]);
-				players.add(player);
-				line = list2.get(i++);
-			}
-		}
+//		i = 0;
+//		while (i < list2.size()) {
+//			String line = list2.get(i++);
+//			String club = line;
+//			line = list2.get(i++);
+//			while (!line.equals("") && i < list2.size()) {
+//				String[] elements = line.split("\\t");
+//				Player player = new Player();
+//				player.setClub(club);
+//				player.setName(elements[0]);
+//				player.setGames(elements[1]);
+//				players.add(player);
+//				line = list2.get(i++);
+//			}
+//		}
 		players.stream().forEach(player -> System.out.println(player));
 		Map<String, Set<String>> map = new HashMap<>();
 		Map<String, Set<String>> clubsWithDupPlayers = new HashMap<>();
@@ -443,9 +443,9 @@ public class DrawService {
 			klub2klub[0] = klub2klub[0].concat(element.getValue() + "\r\n"); 
 	});
 	try {
-	      File myObj = new File("D:/IT/testgit/klub2klub.txt");
+	      File myObj = new File("D:/share/draw/klub2klub.txt");
 	      if (myObj.createNewFile());
-	      FileWriter myWriter = new FileWriter("D:/IT/testgit/klub2klub.txt");
+	      FileWriter myWriter = new FileWriter("D:/share/draw/klub2klub.txt");
 	      myWriter.write(klub2klub[0]);
 	      myWriter.close();
 	    } catch (IOException e) {
@@ -464,9 +464,9 @@ public class DrawService {
 			}
 		});
 		 try {
-		      File myObj = new File("D:/IT/testgit/players2.txt");
+		      File myObj = new File("D:/share/draw/players2.txt");
 		      if (myObj.createNewFile());
-		      FileWriter myWriter = new FileWriter("D:/IT/testgit/players2.txt");
+		      FileWriter myWriter = new FileWriter("D:/share/draw/players2.txt");
 		      myWriter.write(igraci[0]);
 		      myWriter.close();
 		    } catch (IOException e) {
@@ -483,9 +483,9 @@ public class DrawService {
 			}
 		});
 		try {
-		      File myObj = new File("D:/IT/testgit/clubs2.txt");
+		      File myObj = new File("D:/share/draw/clubs2.txt");
 		      if (myObj.createNewFile());
-		      FileWriter myWriter = new FileWriter("D:/IT/testgit/clubs2.txt");
+		      FileWriter myWriter = new FileWriter("D:/share/draw/clubs2.txt");
 		      myWriter.write(timovi[0]);
 		      myWriter.close();
 		    } catch (IOException e) {

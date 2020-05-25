@@ -1,0 +1,24 @@
+PSG		{Arsenal	=1, Liverpool	=1, Juventus	=4, Shalke	=4, Atletico	=2, Ajax	=1, Porto	=1, Roma	=3, Chelsea	=1, Milan	=3, Barcelona	=4, Bayern	=1, Real	=1, Lyon	=2, Benfica	=2, Inter	=1, Man Utd	=1}
+Dortmund		{Arsenal	=3, Chelsea	=1, Barcelona	=3, Bayern	=4, Monchengladbach	=5, Man City	=1, Shaktar	=1, Benfica	=1, Inter	=1, Man Utd	=2}
+Liverpool		{PSG	=1, Arsenal	=1, Juventus	=1, Celtic	=1, Shalke	=1, Man City	=2, Atletico	=1, Ajax	=2, Roma	=2, Milan	=1, Barcelona	=4, Bayern	=2, Lyon	=1, Inter	=1, Benfica	=1}
+Arsenal		{PSG	=1, Dortmund	=3, Liverpool	=1, Juventus	=2, Shalke	=1, Monchengladbach	=1, Man City	=3, Shaktar	=1, Ajax	=1, Roma	=2, Chelsea	=3, Barcelona	=3, Bayern	=1, Real	=1, Lyon	=1, Benfica	=1, Man Utd	=3}
+Juventus		{PSG	=4, Arsenal	=2, Liverpool	=1, Man City	=1, Atletico	=3, Shaktar	=1, Ajax	=2, Porto	=2, Roma	=4, Chelsea	=1, Milan	=3, Barcelona	=3, Bilbao	=1, Bayern	=4, Real	=4, Lyon	=1, Inter	=4, Man Utd	=4}
+Celtic		{Liverpool	=1, Shalke	=1, Lyon	=2}
+Shalke		{PSG	=4, Liverpool	=1, Arsenal	=1, Milan	=2, Barcelona	=1, Celtic	=1, Bayern	=3, Monchengladbach	=4, Man City	=2, Atletico	=1, Ajax	=1}
+Monchengladbach		{Dortmund	=5, Arsenal	=1, Chelsea	=1, Barcelona	=1, Bayern	=2, Shalke	=4, Roma	=1}
+Man City		{Dortmund	=1, Liverpool	=2, Arsenal	=3, Juventus	=1, Shalke	=2, Shaktar	=1, Atletico	=1, Ajax	=1, Porto	=4, Roma	=2, Chelsea	=1, Milan	=3, Barcelona	=1, Bilbao	=1, Real	=3, Benfica	=2, Inter	=2, Man Utd	=1}
+Shaktar		{Dortmund	=1, Arsenal	=1, Chelsea	=1, Milan	=1, Juventus	=1, Bayern	=1, Man City	=1, Man Utd	=2}
+Atletico		{PSG	=2, Liverpool	=1, Juventus	=3, Shalke	=1, Man City	=1, Porto	=5, Chelsea	=4, Barcelona	=2, Bilbao	=1, Bayern	=1, Real	=2, Benfica	=3, Inter	=2, Man Utd	=1}
+Ajax		{PSG	=1, Liverpool	=2, Arsenal	=1, Milan	=4, Barcelona	=5, Juventus	=2, Shalke	=1, Man City	=1, Lyon	=1, Inter	=1, Man Utd	=2, Roma	=2}
+Porto		{PSG	=1, Milan	=1, Juventus	=2, Bayern	=1, Real	=4, Man City	=4, Atletico	=5, Lyon	=1, Inter	=3}
+Roma		{PSG	=3, Arsenal	=2, Liverpool	=2, Juventus	=4, Monchengladbach	=1, Man City	=2, Ajax	=2, Chelsea	=2, Milan	=2, Barcelona	=2, Bayern	=1, Lyon	=2, Inter	=3}
+Chelsea		{PSG	=1, Dortmund	=1, Arsenal	=3, Juventus	=1, Monchengladbach	=1, Man City	=1, Shaktar	=1, Atletico	=4, Roma	=2, Milan	=1, Barcelona	=2, Bilbao	=1, Bayern	=1, Real	=4, Lyon	=1, Benfica	=3, Inter	=1, Man Utd	=2}
+Milan		{PSG	=3, Liverpool	=1, Juventus	=3, Shalke	=2, Man City	=3, Shaktar	=1, Ajax	=4, Porto	=1, Roma	=2, Chelsea	=1, Barcelona	=1, Real	=2, Inter	=3, Man Utd	=1}
+Barcelona		{PSG	=4, Dortmund	=3, Liverpool	=4, Arsenal	=3, Juventus	=3, Shalke	=1, Monchengladbach	=1, Man City	=1, Atletico	=2, Ajax	=5, Roma	=2, Chelsea	=2, Milan	=1, Bayern	=3, Lyon	=1, Inter	=2, Benfica	=2, Man Utd	=2}
+Bilbao		{Chelsea	=1, Juventus	=1, Bayern	=1, Man City	=1, Atletico	=1, Man Utd	=1}
+Bayern		{PSG	=1, Dortmund	=4, Arsenal	=1, Liverpool	=2, Juventus	=4, Shalke	=3, Monchengladbach	=2, Atletico	=1, Shaktar	=1, Porto	=1, Roma	=1, Chelsea	=1, Barcelona	=3, Bilbao	=1, Real	=2, Lyon	=1, Inter	=2}
+Real		{PSG	=1, Arsenal	=1, Juventus	=4, Man City	=3, Atletico	=2, Porto	=4, Chelsea	=4, Milan	=2, Bayern	=2, Lyon	=3, Benfica	=3, Inter	=1, Man Utd	=2}
+Lyon		{PSG	=2, Arsenal	=1, Liverpool	=1, Juventus	=1, Celtic	=2, Ajax	=1, Porto	=1, Roma	=2, Chelsea	=1, Barcelona	=1, Bayern	=1, Real	=3, Man Utd	=2}
+Benfica		{PSG	=2, Dortmund	=1, Chelsea	=3, Arsenal	=1, Liverpool	=1, Barcelona	=2, Real	=3, Man City	=2, Atletico	=3, Man Utd	=2}
+Inter		{PSG	=1, Dortmund	=1, Liverpool	=1, Juventus	=4, Man City	=2, Atletico	=2, Ajax	=1, Porto	=3, Roma	=3, Chelsea	=1, Milan	=3, Barcelona	=2, Bayern	=2, Real	=1, Man Utd	=2}
+Man Utd		{PSG	=1, Dortmund	=2, Arsenal	=3, Juventus	=4, Man City	=1, Shaktar	=2, Atletico	=1, Ajax	=2, Chelsea	=2, Milan	=1, Barcelona	=2, Bilbao	=1, Real	=2, Lyon	=2, Benfica	=2, Inter	=2}

@@ -49,8 +49,6 @@ Tim Hoogland Melbourne Victory	42
 Júnior Caiçara Istanbul Basaksehir FK	41
 Ádám Szalai 1.FSV Mainz 05	40
 Kaan Ayhan Fortuna Düsseldorf	39
-Lehmann	310
-Raul	98
 
 Monchengladbach	
 Patrick Herrmann Borussia Mönchengladbach	323
@@ -103,7 +101,6 @@ Lászlo Bénes Borussia Mönchengladbach	33
 Stefan Lainer Borussia Mönchengladbach	31
 Peniel Mlapa Al Ittihad Kalba Sports Club	31
 Breel Embolo Borussia Mönchengladbach	29
-Matthäus	197
 
 Dortmund	
 Marcel Schmelzer Borussia Dortmund	363
@@ -156,7 +153,6 @@ Jacob Bruun Larsen TSG 1899 Hoffenheim	41
 Abdou Diallo Paris Saint-Germain	38
 Mitchell Langerak Nagoya Grampus	35
 Thorgan Hazard Borussia Dortmund	35
-Lehmann	179
 
 Bayern	
 Thomas Müller Bayern Munich	522
@@ -209,9 +205,6 @@ Breno Club de Regatas Vasco da Gama	33
 Philippe Coutinho Bayern Munich	32
 Pierre-Emile Höjbjerg Southampton FC	25
 Ivan Perisic Bayern Munich	23
-Ballack	157
-Klose	150
-Matthäus	410
 
 Shaktar	
 Andriy Pyatov Shakhtar Donetsk	453
@@ -316,9 +309,6 @@ Liam Henderson FC Empoli	37
 Niall McGinn Aberdeen FC	36
 Craig Beattie Stedfast AFC	36
 John Guidetti Hannover 96	35
-Dalglish	24
-Keane	10
-Larsson	57
 
 Benfica	
 Óscar Cardozo Club Libertad Asunción	288
@@ -371,8 +361,6 @@ Roberto Deportivo Alavés	41
 André Gomes Everton FC	41
 Lorenzo Melgarejo Spartak Moscow	40
 Adel Taarabt SL Benfica	40
-Eusebio	79
-Rui Costa	79
 
 Porto	
 Héctor Herrera Atlético Madrid	245
@@ -425,7 +413,6 @@ Juan Fernando Quintero Club Atlético River Plate	64
 Diego Clube de Regatas do Flamengo	61
 André Silva Eintracht Frankfurt	58
 Evandro Santos FC	58
-Deco	157
 
 Ajax	
 Lasse Schöne Genoa CFC	286
@@ -478,17 +465,6 @@ Nemanja Gudelj Sevilla FC	59
 Justin Kluivert AS Roma	56
 Kenny Tete Olympique Lyon	55
 Lucas Andersen Aalborg BK	53
-Bergkamp	229
-Cruyff	150
-Kluivert	100
-Koeman	105
-Laudrup	30
-Litmanen	255
-Overmars	190
-Rijkaard	267
-Seedorf	89
-Van Basten	157
-Van Der Sar	312
 
 Lyon	
 Anthony Lopes Olympique Lyon	335
@@ -541,7 +517,6 @@ Jérémy Pied LOSC Lille	56
 Mouctar Diakhaby Valencia CF	55
 Yassine Benzia FCO Dijon	54
 Mariano Díaz Real Madrid	48
-Essien	96
 
 PSG	
 Thiago Silva Paris Saint-Germain	310
@@ -594,9 +569,6 @@ Colin Dagba Paris Saint-Germain	37
 Pablo Sarabia Paris Saint-Germain	36
 Granddi N'Goyi US Sénart-Moissy	36
 Moussa Diaby Bayer 04 Leverkusen	34
-Makélélé	118
-Okocha	112
-Ronaldinho	77
 
 Inter	
 Samir Handanovic Inter Milan	324
@@ -649,20 +621,6 @@ Romelu Lukaku Inter Milan	35
 Stevan Jovetic AS Monaco	33
 Ricardo Quaresma Kasimpasa	32
 Mauro Zárate Club Atlético Boca Juniors	31
-Baggio	59
-Bergkamp	72
-Blanc	86
-Cannavaro	74
-Carlos	34
-Crespo	116
-Figo	141
-Matthäus	154
-Ronaldo	98
-Seedorf	93
-Verón	74
-Vieira	91
-Vieri	190
-Zanetti	858
 
 Juventus	
 Gianluigi Buffon Juventus FC	667
@@ -715,16 +673,6 @@ Federico Peluso US Sassuolo	31
 Matthijs de Ligt Juventus FC	27
 Adrien Rabiot Juventus FC	24
 Aaron Ramsey Juventus FC	24
-Baggio	200
-Cannavaro	128
-Del Piero	706
-Inzaghi	165
-Laudrup	151
-Nedvěd	327
-Pirlo	164
-Trezeguet	320
-Zambrotta	296
-Zidane	212
 
 Milan	
 Gianluigi Donnarumma AC Milan	190
@@ -777,24 +725,6 @@ Alessio Cerci US Salernitana 1919	33
 Klaas-Jan Huntelaar Ajax Amsterdam	30
 Diego Laxalt AC Milan	30
 Gianluca Lapadula US Lecce	29
-Baggio	67
-Baresi	714
-Crespo	40
-Desailly	186
-Gattuso	468
-Gullit	171
-Inzaghi	300
-Kaka	307
-Maldini	901
-Nesta	326
-Pirlo	401
-Rijkaard	201
-Ronaldinho	95
-Rui Costa	192
-Seedorf	432
-Shevchenko	322
-Van Basten	201
-Zambrotta	107
 
 Roma	
 Alessandro Florenzi Valencia CF	280
@@ -847,7 +777,6 @@ Bojan Krkic Montreal Impact	37
 Robin Olsen Cagliari Calcio	35
 Dodô UC Sampdoria	35
 Pau López AS Roma	34
-Nakata	40
 
 Atletico	
 Koke Atlético Madrid	446
@@ -900,7 +829,6 @@ Felipe Atlético Madrid	31
 Éver Banega Sevilla FC	31
 Fran Mérida CA Osasuna	30
 João Félix Atlético Madrid	28
-Sanchez	120
 
 Barcelona	
 Lionel Messi FC Barcelona	718
@@ -953,26 +881,6 @@ Ibrahim Afellay PSV Eindhoven	35
 Jeffren Slaven Belupo Koprivnica	34
 Jasper Cillessen Valencia CF	32
 Sandro Ramírez Real Valladolid CF	32
-Blanc	38
-Cruyff	71
-Deco	161
-Figo	248
-Guardiola	378
-Hagi	51
-Henry	121
-Kluivert	259
-Koeman	252
-Larsson	59
-Laudrup	213
-Lineker	128
-Litmanen	32
-Maradona	43
-Overmars	142
-Puyol	593
-Riquelme	42
-Rivaldo	236
-Ronaldinho	207
-Stoichkov	247
 
 Real	
 Iker Casillas FC Porto	725
@@ -1025,21 +933,6 @@ Ezequiel Garay Valencia CF	31
 Borja Mayoral Levante UD	31
 Álvaro Odriozola Bayern Munich	27
 Roberto Soldado Granada CF	27
-Butragueño	425
-Cannavaro	118
-Carlos	527
-Figo	245
-Hagi	80
-Hierro	587
-Kaka	120
-Laudrup	76
-Makélélé	145
-Nistelrooy	96
-Raul	741
-Ronaldo	177
-Sanchez	252
-Seedorf	159
-Zidane	227
 
 Bilbao	
 Markel Susaeta Melbourne City FC	507
@@ -1196,12 +1089,6 @@ Xherdan Shaqiri Liverpool FC	40
 Fabio Borini Hellas Verona	38
 Charlie Adam Reading FC	37
 Lazar Markovic FK Partizan Belgrade	34
-Barnes	396
-Dalglish	449
-Gerrard	710
-Litmanen	43
-Owen	297
-Rush	592
 
 Chelsea	
 Branislav Ivanovic Zenit St. Petersburg	377
@@ -1254,18 +1141,6 @@ Filipe Luís Clube de Regatas do Flamengo	26
 Reece James Chelsea FC	26
 Fikayo Tomori Chelsea FC	23
 Abdul Rahman Baba RCD Mallorca	23
-Ballack	167
-Crespo	73
-Deco	58
-Desailly	216
-Drogba	381
-Essien	256
-Gullit	50
-Lampard	648
-Makélélé	217
-Petit	76
-Shevchenko	77
-Zola	299
 
 Arsenal	
 Theo Walcott Everton FC	398
@@ -1318,15 +1193,6 @@ David Luiz Arsenal FC	32
 Nicolas Pépé Arsenal FC	32
 Reiss Nelson Arsenal FC	32
 Mathieu Debuchy AS Saint-Étienne	30
-Bergkamp	402
-Campbell	210
-Henry	375
-Lehmann	200
-Overmars	131
-Petit	110
-Pires	283
-Vieira	392
-Wright	252
 
 Man Utd	
 Wayne Rooney Derby County	559
@@ -1379,14 +1245,3 @@ Daniel James Manchester United	37
 Federico Macheda Panathinaikos Athens	36
 Aaron Wan-Bissaka Manchester United	34
 Diogo Dalot Manchester United	33
-Best	252
-Blanc	75
-Ferdinand	455
-Giggs	927
-Keane	469
-Larsson	13
-Nistelrooy	219
-Schmeichel	362
-Scholes	709
-Van Der Sar	266
-Verón	82
