@@ -40,10 +40,10 @@ public class PlayerCreation {
 
 		System.out.println("headassetid");
 		playerXlsx.setHeadassetid(in.nextLong());
-		System.out.println("artificialkey");
-		teamLink.setArtificialkey(in.nextLong());
 		System.out.println("playerid");
 		long playerID = in.nextLong();
+		System.out.println("artificialkey");
+		teamLink.setArtificialkey(in.nextLong());
 		playerXlsx.setPlayerid(playerID);
 		playerName.setPlayerid(playerID);
 		teamLink.setPlayerid(playerID);

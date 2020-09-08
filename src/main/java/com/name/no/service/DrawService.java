@@ -1,7 +1,5 @@
 package com.name.no.service;
 
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -333,7 +331,7 @@ public class DrawService {
 
 	private void bla() {
 		List<String> list = new ArrayList<>();
-		File file = new File("D:/share/draw/test.txt");
+		File file = new File("D:/share/draw/allplayers.txt");
 		if(file.exists()){
 			try {
 				list = Files.readAllLines(file.toPath(), Charset.defaultCharset());
