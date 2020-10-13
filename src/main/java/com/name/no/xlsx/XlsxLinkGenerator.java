@@ -15,7 +15,7 @@ public class XlsxLinkGenerator {
 
 	TeamLinkCreation playerLinkCreation = new TeamLinkCreation();
 
-	static long artifId = 22427;
+	static long artifId = 22913;
 
 	public XlsxLinkGenerator() throws Exception {
 		File currDir = new File(".");
